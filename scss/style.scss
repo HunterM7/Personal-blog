@@ -6,7 +6,7 @@
 	display: flex;
 	justify-content: space-between;
 
-	padding: 73px;
+	padding: 125px 0 73px;
 
 	&__text {
 		max-width: 500px;
@@ -198,10 +198,6 @@
 // Media Queries
 
 @media (max-width: 425px) {
-	nav {
-		padding: 15px 18px;
-	}
-
 	h1 {
 		font-size: 32px;
 		font-weight: 700;

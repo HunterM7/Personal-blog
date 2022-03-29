@@ -150,7 +150,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 73px;
+  padding: 125px 0 73px;
 }
 
 .header__info__text {
@@ -349,9 +349,6 @@ p {
 }
 
 @media (max-width: 425px) {
-  nav {
-    padding: 15px 18px;
-  }
   h1 {
     font-size: 32px;
     font-weight: 700;
