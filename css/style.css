@@ -370,6 +370,52 @@ nav {
   color: #8695a4;
 }
 
+footer {
+  padding: 60px 0;
+}
+
+footer .social_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer .social_networks a {
+  display: block;
+  width: 36px;
+  height: 30px;
+  margin-right: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer .social_networks a:first-child {
+  background-image: url("../img/facebook.svg");
+}
+
+footer .social_networks a:nth-child(2) {
+  background-image: url("../img/instagram.svg");
+}
+
+footer .social_networks a:nth-child(3) {
+  background-image: url("../img/twitter.svg");
+}
+
+footer .social_networks a:last-child {
+  background-image: url("../img/linkedin.svg");
+  margin-right: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+
 @media (max-width: 425px) {
   nav {
     padding: 15px 18px;
