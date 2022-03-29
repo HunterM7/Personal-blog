@@ -98,7 +98,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 700;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 h3 {
@@ -359,7 +359,7 @@ nav {
   font-weight: 900;
   line-height: 1;
   color: #fff;
-  padding: 4px 10px;
+  padding: 4px 10px 2px;
   margin-right: 26px;
   background-color: #142850;
   border-radius: 20px;
@@ -488,7 +488,7 @@ nav {
   }
   .featured_works__tags__year {
     font-size: 16px;
-    padding: 4px 12px;
+    padding: 4px 12px 2px;
     margin-right: 23px;
   }
   .featured_works__tags__info {
