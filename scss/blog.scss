@@ -1,0 +1,96 @@
+@import "_common";
+
+// Blog
+
+.blog {
+	padding: 75px 0;
+
+	.container {
+		max-width: 716px;
+	}
+
+	h1 {
+		margin-bottom: 25px;
+	}
+
+	&__section {
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		padding: 25px 0;
+
+		border-bottom: $Light2 1px solid;
+
+		h3 {
+			font-size: 30px;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+	}
+	&__info {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+
+		margin-bottom: 15px;
+
+		&__date {
+			font-size: 20px;
+			font-weight: 400;
+			padding-right: 25px;
+
+			border-right: $Black solid 1px;
+		}
+		&__tags {
+			font-size: 20px;
+			font-weight: 400;
+			color: $Light;
+
+			padding-left: 25px;
+		}
+	}
+}
+
+// ---------------------------------------------
+
+// Media Queries
+
+@media (max-width: 425px) {
+	.blog {
+		padding: 14px 0;
+
+		h1 {
+			font-size: 30px;
+			margin-bottom: 10px;
+		}
+
+		&__section {
+		}
+
+		&__item {
+			padding: 20px 0;
+
+			h3 {
+				font-size: 26px;
+			}
+		}
+
+		&__info {
+			margin-bottom: 20px;
+
+			&__date {
+				font-size: 16px;
+				padding-right: 14px;
+			}
+
+			&__tags {
+				font-size: 16px;
+
+				padding-left: 14px;
+			}
+		}
+	}
+}
+
+// ---------------------------------------------
