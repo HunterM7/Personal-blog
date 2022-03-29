@@ -1,0 +1,51 @@
+@import "_common";
+
+// Footer
+
+footer {
+	padding: 60px 0;
+
+	.social_networks {
+		display: flex;
+		justify-content: center;
+
+		margin-bottom: 30px;
+
+		a {
+			display: block;
+			width: 36px;
+			height: 30px;
+
+			margin-right: 35px;
+
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		a:first-child {
+			background-image: url("../img/facebook.svg");
+		}
+
+		a:nth-child(2) {
+			background-image: url("../img/instagram.svg");
+		}
+
+		a:nth-child(3) {
+			background-image: url("../img/twitter.svg");
+		}
+
+		a:last-child {
+			background-image: url("../img/linkedin.svg");
+
+			margin-right: 0;
+		}
+	}
+
+	.copyright {
+		font-size: 14px;
+		color: $Black;
+		text-align: center;
+	}
+}
+
+// ---------------------------------------------

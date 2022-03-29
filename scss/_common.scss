@@ -1,0 +1,73 @@
+@import "_normalize";
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+
+// Colors
+
+$Primary: #ff6464;
+$Primary2: #ef4d4d;
+$Secondary: #00a8cc;
+$Secondary2: #edf7fa;
+$Dark: #21243d;
+$Dark2: #142850;
+$Black: #000;
+$White: #fff;
+$Light: #8695a4;
+$Light2: #e0e0e0;
+
+// ---------------------------------------------
+
+// Common
+
+body {
+	font-family: "Heebo", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: $Dark;
+}
+
+.container {
+	max-width: 896px;
+	margin: 0 auto;
+	padding: 0 18px;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 1.36;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.46;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.btn {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	color: $White;
+
+	border-radius: 2px;
+	background-color: $Primary;
+	padding: 13px 21px;
+
+	transition: 0.1s ease;
+}
+
+.btn:hover {
+	background-color: #ef4d4d;
+}
+
+// ---------------------------------------------
